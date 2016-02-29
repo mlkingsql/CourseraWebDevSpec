@@ -86,7 +86,7 @@ section {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #section1, #section2, #section3
-  {  
+  {
     float:left;
     margin-bottom: 5px;
     border: 1px solid black;
@@ -104,3 +104,12 @@ section {
 }
 
 /********** Mobile devices only **********/
+@media(max-width:767px){
+  #section1, #section2, #section3{
+      float:left;
+      margin-bottom: 5px;
+      border: 1px solid black;
+      width:99%;
+      margin:0.5%;
+  }
+}
