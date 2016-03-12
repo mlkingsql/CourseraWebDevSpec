@@ -1,0 +1,62 @@
+/*
+define our desktop, tablet, and mobile views in terms of Bootstrap CSS class prefixes, i.e., ‘md’, ‘sm’, and ‘xs’.
+Desktop mockup illustration should correspond to Bootstrap ‘md’-based classes
+Tablet mockup illustration should correspond to Bootstrap ‘sm’-based classes
+Mobile mockup illustration should correspond to Bootstrap ‘xs’-based classes
+****/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff; /* white */
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #888; /* grey */
+  border-radius: 0;
+  border: 0;
+}
+
+/** Navbar **/
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #000000; /* black */
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff; /* white */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/** Navigation menu list **/
+#nav-list {
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #888;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.text-center{
+	color:#000;
+}
